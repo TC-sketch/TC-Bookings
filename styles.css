@@ -156,6 +156,78 @@ nav a:hover {
 }
 
 /* CTA SECTION */
+.contact {
+  padding: 60px 20px;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.contact-form, .contact-info {
+  background: #222;
+  padding: 30px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  color: #fff;
+}
+
+.contact-form h2, .contact-info h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+  background: #333;
+  color: #fff;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+  color: #bbb;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* ensuring hero small-hero has consistent styling */
+.small-hero {
+  height: 40vh;
+}
+
+.hero.small-hero .hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero.small-hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1;
+}
 .cta {
   text-align: center;
   background: #000;
@@ -178,3 +250,4 @@ footer a {
   color: #25D366;
   text-decoration: none;
 }
+
