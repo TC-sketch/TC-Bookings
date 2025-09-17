@@ -228,26 +228,3 @@ nav a:hover {
   background: rgba(0,0,0,0.5);
   z-index: 1;
 }
-.cta {
-  text-align: center;
-  background: #000;
-  padding: 40px 20px;
-}
-
-.cta h2 {
-  margin-bottom: 20px;
-}
-
-/* FOOTER */
-footer {
-  background: #000;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9rem;
-}
-
-footer a {
-  color: #25D366;
-  text-decoration: none;
-}
-
